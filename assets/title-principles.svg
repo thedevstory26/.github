@@ -2,15 +2,14 @@
   <style>
     .title-dark {
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-      font-size: 24px;
+      font-size: 22px;
       font-weight: 700;
-      fill: #ffffff;
-    }
-    .icon-dark {
       fill: #ffffff;
     }
   </style>
   <g transform="translate(100, 30)">
-    <text x="0" y="0" class="title-dark">🌌 Company Core Principles</text>
+    <!-- Vector Sparkle Icon (White) -->
+    <path d="M0 -15 L3 -6 L12 -3 L3 0 L0 9 L-3 0 L-12 -3 L-3 -6 Z" fill="#ffffff" transform="translate(15, -8) scale(0.9)"/>
+    <text x="35" y="0" class="title-dark">Company Core Principles</text>
   </g>
 </svg>

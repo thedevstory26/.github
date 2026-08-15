@@ -25,9 +25,9 @@
 </p>
 
 At **thedevstory**, all tools we craft follow our studio-wide standards:
-- ⚡ **Zero-Friction Tools**: Fast, intuitive web tools built without mandatory accounts or intrusive paywalls.
-- 🔒 **Privacy by Architecture**: Client-side execution where user data remains strictly on your local device.
-- 🎯 **Thoughtful Craftsmanship**: Lightweight interfaces designed to respect your time and attention.
+- <picture><source media="(prefers-color-scheme: dark)" srcset="assets/icon-lightning.svg#gh-dark-mode-only"><source media="(prefers-color-scheme: light)" srcset="assets/icon-lightning-light.svg#gh-light-mode-only"><img src="assets/icon-lightning.svg" width="16" height="16" align="center"></picture> **Zero-Friction Tools**: Fast, intuitive web tools built without mandatory accounts or intrusive paywalls.
+- <picture><source media="(prefers-color-scheme: dark)" srcset="assets/icon-lock.svg#gh-dark-mode-only"><source media="(prefers-color-scheme: light)" srcset="assets/icon-lock-light.svg#gh-light-mode-only"><img src="assets/icon-lock.svg" width="16" height="16" align="center"></picture> **Privacy by Architecture**: Client-side execution where user data remains strictly on your local device.
+- <picture><source media="(prefers-color-scheme: dark)" srcset="assets/icon-target.svg#gh-dark-mode-only"><source media="(prefers-color-scheme: light)" srcset="assets/icon-target-light.svg#gh-light-mode-only"><img src="assets/icon-target.svg" width="16" height="16" align="center"></picture> **Thoughtful Craftsmanship**: Lightweight interfaces designed to respect your time and attention.
 
 ---
 
@@ -42,18 +42,18 @@ At **thedevstory**, all tools we craft follow our studio-wide standards:
 > *Note: Each product built by **thedevstory** maintains its own dedicated feature set tailored to its specific domain.*
 
 <div align="center">
-  <h3>💳 Splito — Split Bills Effortlessly <i>(Product #1 — Active)</i></h3>
+  <h3>Splito — Split Bills Effortlessly <i>(Product #1 — Active)</i></h3>
   <p><i>Split bills with friends — no sign-ups, no servers, no fuss.</i></p>
 </div>
 
 A free, lightweight web application designed for group expense splitting right inside your browser.
 
-#### 🛠️ Splito-Specific Features:
-- 🆓 **Free Forever**: 100% free with zero paywalls.
-- 📶 **Works Offline**: Full PWA functionality running client-side without active internet.
-- 🔑 **No Login Needed**: Start splitting expenses instantly without creating an account.
-- 🛡️ **Privacy-First (No Data Sent)**: Your expense data never leaves your device. Ever.
-- ⚙️ **No Backend Server**: All expense logic is calculated in your browser's local memory.
+#### Splito-Specific Features:
+- <picture><source media="(prefers-color-scheme: dark)" srcset="assets/icon-star.svg#gh-dark-mode-only"><source media="(prefers-color-scheme: light)" srcset="assets/icon-star-light.svg#gh-light-mode-only"><img src="assets/icon-star.svg" width="16" height="16" align="center"></picture> **Free Forever**: 100% free with zero paywalls.
+- <picture><source media="(prefers-color-scheme: dark)" srcset="assets/icon-wifi.svg#gh-dark-mode-only"><source media="(prefers-color-scheme: light)" srcset="assets/icon-wifi-light.svg#gh-light-mode-only"><img src="assets/icon-wifi.svg" width="16" height="16" align="center"></picture> **Works Offline**: Full PWA functionality running client-side without active internet.
+- <picture><source media="(prefers-color-scheme: dark)" srcset="assets/icon-key.svg#gh-dark-mode-only"><source media="(prefers-color-scheme: light)" srcset="assets/icon-key-light.svg#gh-light-mode-only"><img src="assets/icon-key.svg" width="16" height="16" align="center"></picture> **No Login Needed**: Start splitting expenses instantly without creating an account.
+- <picture><source media="(prefers-color-scheme: dark)" srcset="assets/icon-shield.svg#gh-dark-mode-only"><source media="(prefers-color-scheme: light)" srcset="assets/icon-shield-light.svg#gh-light-mode-only"><img src="assets/icon-shield.svg" width="16" height="16" align="center"></picture> **Privacy-First (No Data Sent)**: Your expense data never leaves your device. Ever.
+- <picture><source media="(prefers-color-scheme: dark)" srcset="assets/icon-gear.svg#gh-dark-mode-only"><source media="(prefers-color-scheme: light)" srcset="assets/icon-gear-light.svg#gh-light-mode-only"><img src="assets/icon-gear.svg" width="16" height="16" align="center"></picture> **No Backend Server**: All expense logic is calculated in your browser's local memory.
 
 <br/>
 
@@ -72,7 +72,7 @@ A free, lightweight web application designed for group expense splitting right i
 ---
 
 <div align="center">
-  <h3>🛰️ Upcoming Products <i>(In Concept / Development)</i></h3>
+  <h3>Upcoming Products <i>(In Concept / Development)</i></h3>
 </div>
 <p align="center">Our studio is actively planning and developing future privacy-first tools. Each upcoming application will feature its own tailored architecture and capabilities.</p>
 
@@ -106,8 +106,8 @@ A free, lightweight web application designed for group expense splitting right i
 
 Got feedback, project inquiries, or feature ideas? Drop us a line!
 
-- 📧 **Direct Email**: [thedevstory26@gmail.com](mailto:thedevstory26@gmail.com)
-- 💬 **Web Form**: Submit messages directly through our website contact form.
+- <picture><source media="(prefers-color-scheme: dark)" srcset="assets/icon-email.svg#gh-dark-mode-only"><source media="(prefers-color-scheme: light)" srcset="assets/icon-email-light.svg#gh-light-mode-only"><img src="assets/icon-email.svg" width="16" height="16" align="center"></picture> **Direct Email**: [thedevstory26@gmail.com](mailto:thedevstory26@gmail.com)
+- <picture><source media="(prefers-color-scheme: dark)" srcset="assets/icon-chat.svg#gh-dark-mode-only"><source media="(prefers-color-scheme: light)" srcset="assets/icon-chat-light.svg#gh-light-mode-only"><img src="assets/icon-chat.svg" width="16" height="16" align="center"></picture> **Web Form**: Submit messages directly through our website contact form.
 
 ---
 

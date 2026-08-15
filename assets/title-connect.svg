@@ -2,12 +2,14 @@
   <style>
     .title-dark {
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-      font-size: 24px;
+      font-size: 22px;
       font-weight: 700;
       fill: #ffffff;
     }
   </style>
   <g transform="translate(150, 30)">
-    <text x="0" y="0" class="title-dark">🌐 Connect With Us</text>
+    <!-- Vector Globe Icon (White) -->
+    <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM11 4.07C7.05 4.56 4 7.92 4 12C4 12.34 4.03 12.67 4.08 13H9V11H7V9H11V4.07ZM13 4.07V9H17V11H15V13H19.92C19.97 12.67 20 12.34 20 12C20 7.92 16.95 4.56 13 4.07ZM4.59 15H9V17H7V19H11V19.93C7.05 19.44 4 16.08 4 12C4 11.66 4.03 11.33 4.08 11H9V9H4.59ZM13 19.93V15H17V17H15V19H13Z" fill="#ffffff" transform="translate(-10, -20) scale(0.8)"/>
+    <text x="25" y="0" class="title-dark">Connect With Us</text>
   </g>
 </svg>
