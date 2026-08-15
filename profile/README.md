@@ -1,71 +1,58 @@
-<div align="center">
-
-<!-- Theme Adaptive Logo (Switches automatically between Dark and Light mode logos) -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/logo.svg#gh-dark-mode-only">
-  <source media="(prefers-color-scheme: light)" srcset="assets/logo-light.svg#gh-light-mode-only">
-  <img alt="The Dev Story Logo" src="assets/logo.svg" width="110" height="110">
-</picture>
-
-# the**dev**story
-
-<img src="assets/arc.svg" alt="underline arc" width="150">
-
-### *we build things that matter*
-
-A small studio building lightweight tools respecting your time, your data, and your privacy.
-
-<br/>
-
-[![Website](https://img.shields.io/badge/Website-thedevstory-9B59B6?style=for-the-badge&logo=vue.js&logoColor=white)](https://splitoh.netlify.app)
-[![Product](https://img.shields.io/badge/Featured_App-Splito-06b6d4?style=for-the-badge&logo=netlify&logoColor=white)](https://splitoh.netlify.app)
-[![Privacy](https://img.shields.io/badge/Privacy-100%25_Offline_&_Local-ec4899?style=for-the-badge&logo=shield&logoColor=white)](#-our-philosophy)
-
-</div>
-
-<br/>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/header-banner.svg#gh-dark-mode-only">
+    <source media="(prefers-color-scheme: light)" srcset="assets/header-banner-light.svg#gh-light-mode-only">
+    <img alt="The Dev Story Header" src="assets/header-banner.svg" width="100%">
+  </picture>
+</p>
 
 <p align="center">
-  <img src="assets/header-banner.svg" alt="The Dev Story Banner" width="100%">
+  <a href="https://splitoh.netlify.app"><img src="https://img.shields.io/badge/Website-thedevstory-9B59B6?style=for-the-badge&logo=vue.js&logoColor=white" alt="Website"></a>
+  <a href="https://splitoh.netlify.app"><img src="https://img.shields.io/badge/Featured_App-Splito-06b6d4?style=for-the-badge&logo=netlify&logoColor=white" alt="Splito App"></a>
+  <a href="#-company-core-principles"><img src="https://img.shields.io/badge/Privacy-100%25_User_First-ec4899?style=for-the-badge&logo=shield&logoColor=white" alt="Privacy"></a>
 </p>
 
 <p align="center">
   <img src="assets/divider.svg" alt="Divider Beam" width="100%">
 </p>
 
-## 🌌 Our Philosophy
+## 🌌 Company Core Principles
 
-At **thedevstory**, we believe modern web tools should be fast, private, and serverless whenever possible.
-- ⚡ **No Sign-ups Required**: Use our tools instantly without creating accounts.
-- 🔒 **No Data Harvesting**: Your data stays strictly on your local device.
-- 🎯 **Zero Friction**: Lightweight interfaces optimized for mobile and desktop.
+At **thedevstory**, all tools we craft follow our studio-wide standards:
+- ⏳ **Respect Your Time**: Zero intrusive ads, unnecessary click-paths, or bloated onboarding.
+- 🔒 **Respect Your Data**: No data harvesting or tracking. Your privacy comes first.
+- ⚡ **Lightweight & Serverless**: Built for speed, high performance, and minimal resource footprint.
 
 ---
 
-## 🚀 Featured Product
+## 🚀 Products & Applications
 
-### 💳 **Splito** — Split Bills Effortlessly
+> *Note: Each product built by **thedevstory** maintains its own dedicated feature set tailored to its specific domain.*
+
+### 💳 **Splito** — Split Bills Effortlessly *(Product #1 — Active)*
 > *Split bills with friends — no sign-ups, no servers, no fuss.*
 
-A free, lightweight web application that works right in your browser, even offline. Your data never leaves your device. Ever.
+A free, lightweight web application designed for group expense splitting right inside your browser.
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│                      SPLITO FEATURES                        │
-├─────────────────┬─────────────────┬─────────────────────────┤
-│  Free Forever   │  Works Offline  │     No Login Needed     │
-├─────────────────┴─────────────────┴─────────────────────────┤
-│          Privacy-First   •   No Backend Required            │
-└─────────────────────────────────────────────────────────────┘
-```
+#### 🛠️ Splito-Specific Features:
+- 🆓 **Free Forever**: 100% free with zero paywalls.
+- 📶 **Works Offline**: Full PWA functionality running client-side without active internet.
+- 🔑 **No Login Needed**: Start splitting expenses instantly without creating an account.
+- 🛡️ **Privacy-First (No Data Sent)**: Your expense data never leaves your device. Ever.
+- ⚙️ **No Backend Server**: All expense logic is calculated in your browser's local memory.
 
-👉 **[Try Splito Live App (splitoh.netlify.app)](https://splitoh.netlify.app)**
+👉 **[Launch Splito Live App (splitoh.netlify.app)](https://splitoh.netlify.app)**
+
+---
+
+### 🛰️ Upcoming Products *(In Concept / Development)*
+Our studio is actively planning and developing future privacy-first tools. Each upcoming application will feature its own tailored architecture and capabilities.
 
 ---
 
 ## 👨‍💻 The Crew
 
-Our core engineering team building thoughtful software:
+Our core engineering team:
 
 | Member | Role | Organization Access |
 | :--- | :--- | :--- |
@@ -77,10 +64,10 @@ Our core engineering team building thoughtful software:
 
 ## 📬 Get In Touch
 
-Got a project in mind, feedback, or want to collaborate? Drop us a line!
+Got feedback, project inquiries, or feature ideas? Drop us a line!
 
 - 📧 **Direct Email**: [thedevstory26@gmail.com](mailto:thedevstory26@gmail.com)
-- 💬 **Feedback**: Submit messages directly via our web form.
+- 💬 **Web Form**: Submit messages directly through our website contact form.
 
 ---
 
