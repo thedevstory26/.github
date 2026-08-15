@@ -1,0 +1,138 @@
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/header-banner.svg#gh-dark-mode-only">
+    <source media="(prefers-color-scheme: light)" srcset="assets/header-banner-light.svg#gh-light-mode-only">
+    <img alt="The Dev Story Header" src="assets/header-banner.svg" width="100%">
+  </picture>
+</p>
+
+<p align="center">
+  <a href="https://splitoh.netlify.app"><img src="https://img.shields.io/badge/Website-thedevstory-9B59B6?style=for-the-badge&logo=vue.js&logoColor=white" alt="Website"></a>
+  <a href="https://splitoh.netlify.app"><img src="https://img.shields.io/badge/Featured_App-Splito-06b6d4?style=for-the-badge&logo=netlify&logoColor=white" alt="Splito App"></a>
+  <a href="#-company-core-principles"><img src="https://img.shields.io/badge/Privacy-100%25_User_First-ec4899?style=for-the-badge&logo=shield&logoColor=white" alt="Privacy"></a>
+</p>
+
+<p align="center">
+  <img src="assets/divider.svg" alt="Divider Beam" width="100%">
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/title-principles.svg#gh-dark-mode-only">
+    <source media="(prefers-color-scheme: light)" srcset="assets/title-principles-light.svg#gh-light-mode-only">
+    <img alt="Company Core Principles" src="assets/title-principles.svg" width="450">
+  </picture>
+</p>
+
+At **thedevstory**, all tools we craft follow our studio-wide standards:
+- <picture><source media="(prefers-color-scheme: dark)" srcset="assets/icon-lightning.svg#gh-dark-mode-only"><source media="(prefers-color-scheme: light)" srcset="assets/icon-lightning-light.svg#gh-light-mode-only"><img src="assets/icon-lightning.svg" width="16" height="16" align="center"></picture> **Zero-Friction Tools**: Fast, intuitive web tools built without mandatory accounts or intrusive paywalls.
+- <picture><source media="(prefers-color-scheme: dark)" srcset="assets/icon-lock.svg#gh-dark-mode-only"><source media="(prefers-color-scheme: light)" srcset="assets/icon-lock-light.svg#gh-light-mode-only"><img src="assets/icon-lock.svg" width="16" height="16" align="center"></picture> **Privacy by Architecture**: Client-side execution where user data remains strictly on your local device.
+- <picture><source media="(prefers-color-scheme: dark)" srcset="assets/icon-target.svg#gh-dark-mode-only"><source media="(prefers-color-scheme: light)" srcset="assets/icon-target-light.svg#gh-light-mode-only"><img src="assets/icon-target.svg" width="16" height="16" align="center"></picture> **Thoughtful Craftsmanship**: Lightweight interfaces designed to respect your time and attention.
+
+---
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/title-products.svg#gh-dark-mode-only">
+    <source media="(prefers-color-scheme: light)" srcset="assets/title-products-light.svg#gh-light-mode-only">
+    <img alt="Products & Applications" src="assets/title-products.svg" width="450">
+  </picture>
+</p>
+
+> *Note: Each product built by **thedevstory** maintains its own dedicated feature set tailored to its specific domain.*
+
+<div align="center">
+  <h3>Splito — Split Bills Effortlessly <i>(Product #1 — Active)</i></h3>
+  <p><i>Split bills with friends — no sign-ups, no servers, no fuss.</i></p>
+</div>
+
+A free, lightweight web application designed for group expense splitting right inside your browser.
+
+#### Splito-Specific Features:
+- <picture><source media="(prefers-color-scheme: dark)" srcset="assets/icon-star.svg#gh-dark-mode-only"><source media="(prefers-color-scheme: light)" srcset="assets/icon-star-light.svg#gh-light-mode-only"><img src="assets/icon-star.svg" width="16" height="16" align="center"></picture> **Free Forever**: 100% free with zero paywalls.
+- <picture><source media="(prefers-color-scheme: dark)" srcset="assets/icon-wifi.svg#gh-dark-mode-only"><source media="(prefers-color-scheme: light)" srcset="assets/icon-wifi-light.svg#gh-light-mode-only"><img src="assets/icon-wifi.svg" width="16" height="16" align="center"></picture> **Works Offline**: Full PWA functionality running client-side without active internet.
+- <picture><source media="(prefers-color-scheme: dark)" srcset="assets/icon-key.svg#gh-dark-mode-only"><source media="(prefers-color-scheme: light)" srcset="assets/icon-key-light.svg#gh-light-mode-only"><img src="assets/icon-key.svg" width="16" height="16" align="center"></picture> **No Login Needed**: Start splitting expenses instantly without creating an account.
+- <picture><source media="(prefers-color-scheme: dark)" srcset="assets/icon-shield.svg#gh-dark-mode-only"><source media="(prefers-color-scheme: light)" srcset="assets/icon-shield-light.svg#gh-light-mode-only"><img src="assets/icon-shield.svg" width="16" height="16" align="center"></picture> **Privacy-First (No Data Sent)**: Your expense data never leaves your device. Ever.
+- <picture><source media="(prefers-color-scheme: dark)" srcset="assets/icon-gear.svg#gh-dark-mode-only"><source media="(prefers-color-scheme: light)" srcset="assets/icon-gear-light.svg#gh-light-mode-only"><img src="assets/icon-gear.svg" width="16" height="16" align="center"></picture> **No Backend Server**: All expense logic is calculated in your browser's local memory.
+
+<br/>
+
+<div align="center">
+  <a href="https://splitoh.netlify.app" target="_blank" rel="noopener noreferrer">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/btn-launch-splito-dark.svg#gh-dark-mode-only">
+      <source media="(prefers-color-scheme: light)" srcset="assets/btn-launch-splito-light.svg#gh-light-mode-only">
+      <img alt="Launch Splito App" src="assets/btn-launch-splito-dark.svg" width="260">
+    </picture>
+  </a>
+</div>
+
+<br/>
+
+---
+
+<div align="center">
+  <h3>Upcoming Products <i>(In Concept / Development)</i></h3>
+</div>
+<p align="center">Our studio is actively planning and developing future privacy-first tools. Each upcoming application will feature its own tailored architecture and capabilities.</p>
+
+---
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/title-crew.svg#gh-dark-mode-only">
+    <source media="(prefers-color-scheme: light)" srcset="assets/title-crew-light.svg#gh-light-mode-only">
+    <img alt="The Crew" src="assets/title-crew.svg" width="450">
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/crew-cards-dark.svg#gh-dark-mode-only">
+    <source media="(prefers-color-scheme: light)" srcset="assets/crew-cards-light.svg#gh-light-mode-only">
+    <img alt="The Dev Story Crew Pass Cards" src="assets/crew-cards-dark.svg" width="100%">
+  </picture>
+</p>
+
+---
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/title-contact.svg#gh-dark-mode-only">
+    <source media="(prefers-color-scheme: light)" srcset="assets/title-contact-light.svg#gh-light-mode-only">
+    <img alt="Get In Touch" src="assets/title-contact.svg" width="450">
+  </picture>
+</p>
+
+Got feedback, project inquiries, or feature ideas? Drop us a line!
+
+- <picture><source media="(prefers-color-scheme: dark)" srcset="assets/icon-email.svg#gh-dark-mode-only"><source media="(prefers-color-scheme: light)" srcset="assets/icon-email-light.svg#gh-light-mode-only"><img src="assets/icon-email.svg" width="16" height="16" align="center"></picture> **Direct Email**: [thedevstory26@gmail.com](mailto:thedevstory26@gmail.com)
+- <picture><source media="(prefers-color-scheme: dark)" srcset="assets/icon-chat.svg#gh-dark-mode-only"><source media="(prefers-color-scheme: light)" srcset="assets/icon-chat-light.svg#gh-light-mode-only"><img src="assets/icon-chat.svg" width="16" height="16" align="center"></picture> **Web Form**: Submit messages directly through our website contact form.
+
+---
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/title-connect.svg#gh-dark-mode-only">
+    <source media="(prefers-color-scheme: light)" srcset="assets/title-connect-light.svg#gh-light-mode-only">
+    <img alt="Connect With Us" src="assets/title-connect.svg" width="450">
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/social-buttons-dark.svg#gh-dark-mode-only">
+    <source media="(prefers-color-scheme: light)" srcset="assets/social-buttons-light.svg#gh-light-mode-only">
+    <img alt="The Dev Story Social Connections" src="assets/social-buttons-dark.svg" width="600">
+  </picture>
+</p>
+
+<br/>
+
+<p align="center">
+  <img src="assets/divider.svg" alt="Footer Divider" width="100%">
+</p>
+
+<div align="center">
+  <sub>&copy; 2026 <b>The Dev Story</b>. Built with passion for clean software.</sub>
+</div>

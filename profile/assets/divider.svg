@@ -1,0 +1,20 @@
+<svg viewBox="0 0 1200 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .beam {
+      animation: pulse 6s ease-in-out infinite alternate;
+    }
+    @keyframes pulse {
+      0% { opacity: 0.2; }
+      50% { opacity: 0.9; }
+      100% { opacity: 0.2; }
+    }
+  </style>
+  <rect class="beam" width="1200" height="4" rx="2" fill="url(#g)"/>
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#9B59B6" stop-opacity="0.1"/>
+      <stop offset="50%" stop-color="#F76C6C" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#9B59B6" stop-opacity="0.1"/>
+    </linearGradient>
+  </defs>
+</svg>
