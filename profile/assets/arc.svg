@@ -1,0 +1,15 @@
+<svg viewBox="0 0 120 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .arc {
+      stroke: #9B59B6;
+      stroke-dasharray: 200;
+      stroke-dashoffset: 200;
+      animation: draw 4s ease-in-out infinite alternate;
+    }
+    @keyframes draw {
+      0% { stroke-dashoffset: 200; }
+      100% { stroke-dashoffset: 0; }
+    }
+  </style>
+  <path class="arc" d="M6 14 Q60 2 114 11" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+</svg>
