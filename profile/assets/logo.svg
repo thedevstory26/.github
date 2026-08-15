@@ -1,9 +1,0 @@
-<svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- Speed lines forming a "D" shape (Pure white for Dark theme visibility) -->
-  <path d="M50 60 H120 Q160 60 160 100 Q160 140 120 140 H50" stroke="#ffffff" stroke-width="6" stroke-linecap="round" fill="none"/>
-  <path d="M30 80 H100" stroke="#ffffff" stroke-width="4" stroke-linecap="round" fill="none"/>
-  <path d="M35 100 H80" stroke="#ffffff" stroke-width="4" stroke-linecap="round" fill="none"/>
-  <path d="M30 120 H100" stroke="#ffffff" stroke-width="4" stroke-linecap="round" fill="none"/>
-  <!-- Purple dot -->
-  <circle cx="145" cy="145" r="10" fill="#9B59B6"/>
-</svg>

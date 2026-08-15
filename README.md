@@ -19,9 +19,9 @@
 ## 🌌 Company Core Principles
 
 At **thedevstory**, all tools we craft follow our studio-wide standards:
-- ⏳ **Respect Your Time**: Zero intrusive ads, unnecessary click-paths, or bloated onboarding.
-- 🔒 **Respect Your Data**: No data harvesting or tracking. Your privacy comes first.
-- ⚡ **Lightweight & Serverless**: Built for speed, high performance, and minimal resource footprint.
+- ⚡ **Zero-Friction Tools**: Fast, intuitive web tools built without mandatory accounts or intrusive paywalls.
+- 🔒 **Privacy by Architecture**: Client-side execution where user data remains strictly on your local device.
+- 🎯 **Thoughtful Craftsmanship**: Lightweight interfaces designed to respect your time and attention.
 
 ---
 
@@ -52,13 +52,13 @@ Our studio is actively planning and developing future privacy-first tools. Each 
 
 ## 👨‍💻 The Crew
 
-Our core engineering team:
-
-| Member | Role | Organization Access |
-| :--- | :--- | :--- |
-| 🛠️ **Gururaj** | Developer | Core Team |
-| ⚡ **Shobith** | Developer | Core Team |
-| 🎨 **Adarsh** | Developer | Core Team |
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/crew-cards-dark.svg#gh-dark-mode-only">
+    <source media="(prefers-color-scheme: light)" srcset="assets/crew-cards-light.svg#gh-light-mode-only">
+    <img alt="The Dev Story Crew Pass Cards" src="assets/crew-cards-dark.svg" width="100%">
+  </picture>
+</p>
 
 ---
 

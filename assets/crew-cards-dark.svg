@@ -1,0 +1,224 @@
+<svg viewBox="0 0 850 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Card Gradients -->
+    <linearGradient id="cardBgDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#13111c"/>
+      <stop offset="100%" stop-color="#0a0910"/>
+    </linearGradient>
+
+    <!-- Accent Gradients -->
+    <linearGradient id="purpleGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9B59B6"/>
+      <stop offset="100%" stop-color="#8e44ad"/>
+    </linearGradient>
+
+    <linearGradient id="cyanGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#0891b2"/>
+    </linearGradient>
+
+    <linearGradient id="pinkGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ec4899"/>
+      <stop offset="100%" stop-color="#db2777"/>
+    </linearGradient>
+
+    <!-- Glow Filters -->
+    <filter id="purpleFilter" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <filter id="cyanFilter" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <filter id="pinkFilter" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&amp;family=Fira+Code:wght@400;600&amp;display=swap');
+
+    .crew-card {
+      fill: url(#cardBgDark);
+      stroke-width: 1.5;
+      rx: 14px;
+      transition: all 0.3s ease;
+    }
+
+    .card-purple { stroke: rgba(155, 89, 182, 0.4); }
+    .card-cyan   { stroke: rgba(6, 182, 212, 0.4); }
+    .card-pink   { stroke: rgba(236, 72, 153, 0.4); }
+
+    .crew-title {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 800;
+      font-size: 22px;
+      fill: #f8fafc;
+    }
+
+    .crew-role {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 500;
+      font-size: 13px;
+      fill: #94a3b8;
+    }
+
+    .badge-pass {
+      font-family: 'Fira Code', monospace;
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: 1px;
+    }
+
+    .pass-purple { fill: #c084fc; }
+    .pass-cyan   { fill: #38bdf8; }
+    .pass-pink   { fill: #f472b6; }
+
+    .detail-label {
+      font-family: 'Fira Code', monospace;
+      font-size: 10px;
+      fill: #64748b;
+    }
+
+    .detail-val {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 700;
+      font-size: 12px;
+      fill: #e2e8f0;
+    }
+
+    .barcode-line {
+      stroke: #334155;
+      stroke-width: 2;
+    }
+
+    .shimmer-bar {
+      opacity: 0.8;
+      animation: pulseGlow 4s ease-in-out infinite alternate;
+    }
+
+    .shim-purple { animation-delay: 0s; }
+    .shim-cyan   { animation-delay: 1.3s; }
+    .shim-pink   { animation-delay: 2.6s; }
+
+    @keyframes pulseGlow {
+      0% { opacity: 0.4; filter: drop-shadow(0 0 2px currentColor); }
+      100% { opacity: 1; filter: drop-shadow(0 0 10px currentColor); }
+    }
+  </style>
+
+  <!-- CARD 1: GURURAJ (Amethyst Purple) -->
+  <g transform="translate(10, 15)">
+    <rect width="260" height="250" class="crew-card card-purple"/>
+    <rect x="0" y="0" width="260" height="5" fill="url(#purpleGlow)" rx="2" class="shimmer-bar shim-purple"/>
+
+    <!-- Header -->
+    <text x="20" y="38" class="detail-label">ORGANIZATION</text>
+    <text x="20" y="55" class="detail-val" style="fill:#a855f7;">thedevstory</text>
+    <rect x="165" y="24" width="75" height="22" rx="6" fill="rgba(155, 89, 182, 0.15)" stroke="rgba(155, 89, 182, 0.4)"/>
+    <text x="173" y="39" class="badge-pass pass-purple">CREW PASS</text>
+
+    <!-- Name & Role -->
+    <circle cx="30" cy="100" r="12" fill="#9B59B6" opacity="0.2"/>
+    <circle cx="30" cy="100" r="5" fill="#9B59B6" filter="url(#purpleFilter)"/>
+    <text x="52" y="107" class="crew-title">Gururaj</text>
+    <text x="52" y="126" class="crew-role">Developer</text>
+
+    <!-- Details Grid -->
+    <line x1="20" y1="145" x2="240" y2="145" stroke="#1e293b" stroke-width="1.5"/>
+    <text x="20" y="170" class="detail-label">ROLE</text>
+    <text x="20" y="188" class="detail-val">Developer</text>
+
+    <text x="140" y="170" class="detail-label">ACCESS LEVEL</text>
+    <text x="140" y="188" class="detail-val">Core Team</text>
+
+    <!-- Bottom Barcode Line Decor -->
+    <g transform="translate(20, 215)">
+      <line x1="0" y1="0" x2="0" y2="15" class="barcode-line" stroke-width="3"/>
+      <line x1="6" y1="0" x2="6" y2="15" class="barcode-line" stroke-width="1"/>
+      <line x1="10" y1="0" x2="10" y2="15" class="barcode-line" stroke-width="4"/>
+      <line x1="18" y1="0" x2="18" y2="15" class="barcode-line" stroke-width="2"/>
+      <line x1="24" y1="0" x2="24" y2="15" class="barcode-line" stroke-width="1"/>
+      <line x1="30" y1="0" x2="30" y2="15" class="barcode-line" stroke-width="3"/>
+      <text x="150" y="12" class="detail-label" style="fill:#475569;">#001-DEV</text>
+    </g>
+  </g>
+
+  <!-- CARD 2: SHOBITH (Cyan) -->
+  <g transform="translate(295, 15)">
+    <rect width="260" height="250" class="crew-card card-cyan"/>
+    <rect x="0" y="0" width="260" height="5" fill="url(#cyanGlow)" rx="2" class="shimmer-bar shim-cyan"/>
+
+    <!-- Header -->
+    <text x="20" y="38" class="detail-label">ORGANIZATION</text>
+    <text x="20" y="55" class="detail-val" style="fill:#06b6d4;">thedevstory</text>
+    <rect x="165" y="24" width="75" height="22" rx="6" fill="rgba(6, 182, 212, 0.15)" stroke="rgba(6, 182, 212, 0.4)"/>
+    <text x="173" y="39" class="badge-pass pass-cyan">CREW PASS</text>
+
+    <!-- Name & Role -->
+    <circle cx="30" cy="100" r="12" fill="#06b6d4" opacity="0.2"/>
+    <circle cx="30" cy="100" r="5" fill="#06b6d4" filter="url(#cyanFilter)"/>
+    <text x="52" y="107" class="crew-title">Shobith</text>
+    <text x="52" y="126" class="crew-role">Developer</text>
+
+    <!-- Details Grid -->
+    <line x1="20" y1="145" x2="240" y2="145" stroke="#1e293b" stroke-width="1.5"/>
+    <text x="20" y="170" class="detail-label">ROLE</text>
+    <text x="20" y="188" class="detail-val">Developer</text>
+
+    <text x="140" y="170" class="detail-label">ACCESS LEVEL</text>
+    <text x="140" y="188" class="detail-val">Core Team</text>
+
+    <!-- Bottom Barcode Line Decor -->
+    <g transform="translate(20, 215)">
+      <line x1="0" y1="0" x2="0" y2="15" class="barcode-line" stroke-width="2"/>
+      <line x1="5" y1="0" x2="5" y2="15" class="barcode-line" stroke-width="3"/>
+      <line x1="12" y1="0" x2="12" y2="15" class="barcode-line" stroke-width="1"/>
+      <line x1="18" y1="0" x2="18" y2="15" class="barcode-line" stroke-width="4"/>
+      <line x1="25" y1="0" x2="25" y2="15" class="barcode-line" stroke-width="2"/>
+      <line x1="30" y1="0" x2="30" y2="15" class="barcode-line" stroke-width="1"/>
+      <text x="150" y="12" class="detail-label" style="fill:#475569;">#002-DEV</text>
+    </g>
+  </g>
+
+  <!-- CARD 3: ADARSH (Pink) -->
+  <g transform="translate(580, 15)">
+    <rect width="260" height="250" class="crew-card card-pink"/>
+    <rect x="0" y="0" width="260" height="5" fill="url(#pinkGlow)" rx="2" class="shimmer-bar shim-pink"/>
+
+    <!-- Header -->
+    <text x="20" y="38" class="detail-label">ORGANIZATION</text>
+    <text x="20" y="55" class="detail-val" style="fill:#ec4899;">thedevstory</text>
+    <rect x="165" y="24" width="75" height="22" rx="6" fill="rgba(236, 72, 153, 0.15)" stroke="rgba(236, 72, 153, 0.4)"/>
+    <text x="173" y="39" class="badge-pass pass-pink">CREW PASS</text>
+
+    <!-- Name & Role -->
+    <circle cx="30" cy="100" r="12" fill="#ec4899" opacity="0.2"/>
+    <circle cx="30" cy="100" r="5" fill="#ec4899" filter="url(#pinkFilter)"/>
+    <text x="52" y="107" class="crew-title">Adarsh</text>
+    <text x="52" y="126" class="crew-role">Developer</text>
+
+    <!-- Details Grid -->
+    <line x1="20" y1="145" x2="240" y2="145" stroke="#1e293b" stroke-width="1.5"/>
+    <text x="20" y="170" class="detail-label">ROLE</text>
+    <text x="20" y="188" class="detail-val">Developer</text>
+
+    <text x="140" y="170" class="detail-label">ACCESS LEVEL</text>
+    <text x="140" y="188" class="detail-val">Core Team</text>
+
+    <!-- Bottom Barcode Line Decor -->
+    <g transform="translate(20, 215)">
+      <line x1="0" y1="0" x2="0" y2="15" class="barcode-line" stroke-width="4"/>
+      <line x1="7" y1="0" x2="7" y2="15" class="barcode-line" stroke-width="1"/>
+      <line x1="12" y1="0" x2="12" y2="15" class="barcode-line" stroke-width="2"/>
+      <line x1="18" y1="0" x2="18" y2="15" class="barcode-line" stroke-width="3"/>
+      <line x1="24" y1="0" x2="24" y2="15" class="barcode-line" stroke-width="1"/>
+      <line x1="29" y1="0" x2="29" y2="15" class="barcode-line" stroke-width="4"/>
+      <text x="150" y="12" class="detail-label" style="fill:#475569;">#003-DEV</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,197 @@
+<svg viewBox="0 0 850 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Card Gradients Light -->
+    <linearGradient id="cardBgLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f8fafc"/>
+    </linearGradient>
+
+    <!-- Accent Gradients -->
+    <linearGradient id="purpleGlowLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9333ea"/>
+      <stop offset="100%" stop-color="#7e22ce"/>
+    </linearGradient>
+
+    <linearGradient id="cyanGlowLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="100%" stop-color="#0369a1"/>
+    </linearGradient>
+
+    <linearGradient id="pinkGlowLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#db2777"/>
+      <stop offset="100%" stop-color="#be185d"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&amp;family=Fira+Code:wght@400;600&amp;display=swap');
+
+    .crew-card-light {
+      fill: url(#cardBgLight);
+      stroke-width: 1.5;
+      rx: 14px;
+    }
+
+    .card-purple-light { stroke: #cbd5e1; }
+    .card-cyan-light   { stroke: #cbd5e1; }
+    .card-pink-light   { stroke: #cbd5e1; }
+
+    .crew-title-light {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 800;
+      font-size: 22px;
+      fill: #0f172a;
+    }
+
+    .crew-role-light {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 500;
+      font-size: 13px;
+      fill: #475569;
+    }
+
+    .badge-pass-light {
+      font-family: 'Fira Code', monospace;
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: 1px;
+    }
+
+    .pass-purple-light { fill: #7e22ce; }
+    .pass-cyan-light   { fill: #0369a1; }
+    .pass-pink-light   { fill: #be185d; }
+
+    .detail-label-light {
+      font-family: 'Fira Code', monospace;
+      font-size: 10px;
+      fill: #64748b;
+    }
+
+    .detail-val-light {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 700;
+      font-size: 12px;
+      fill: #0f172a;
+    }
+
+    .barcode-line-light {
+      stroke: #94a3b8;
+      stroke-width: 2;
+    }
+
+    .shimmer-bar-light {
+      opacity: 0.95;
+    }
+  </style>
+
+  <!-- CARD 1: GURURAJ (Amethyst Purple) -->
+  <g transform="translate(10, 15)">
+    <rect width="260" height="250" class="crew-card-light card-purple-light"/>
+    <rect x="0" y="0" width="260" height="5" fill="url(#purpleGlowLight)" rx="2" class="shimmer-bar-light"/>
+
+    <!-- Header -->
+    <text x="20" y="38" class="detail-label-light">ORGANIZATION</text>
+    <text x="20" y="55" class="detail-val-light" style="fill:#7e22ce;">thedevstory</text>
+    <rect x="165" y="24" width="75" height="22" rx="6" fill="#f3e8ff" stroke="#e9d5ff"/>
+    <text x="173" y="39" class="badge-pass-light pass-purple-light">CREW PASS</text>
+
+    <!-- Name & Role -->
+    <circle cx="30" cy="100" r="12" fill="#f3e8ff"/>
+    <circle cx="30" cy="100" r="5" fill="#7e22ce"/>
+    <text x="52" y="107" class="crew-title-light">Gururaj</text>
+    <text x="52" y="126" class="crew-role-light">Developer</text>
+
+    <!-- Details Grid -->
+    <line x1="20" y1="145" x2="240" y2="145" stroke="#e2e8f0" stroke-width="1.5"/>
+    <text x="20" y="170" class="detail-label-light">ROLE</text>
+    <text x="20" y="188" class="detail-val-light">Developer</text>
+
+    <text x="140" y="170" class="detail-label-light">ACCESS LEVEL</text>
+    <text x="140" y="188" class="detail-val-light">Core Team</text>
+
+    <!-- Bottom Barcode Line Decor -->
+    <g transform="translate(20, 215)">
+      <line x1="0" y1="0" x2="0" y2="15" class="barcode-line-light" stroke-width="3"/>
+      <line x1="6" y1="0" x2="6" y2="15" class="barcode-line-light" stroke-width="1"/>
+      <line x1="10" y1="0" x2="10" y2="15" class="barcode-line-light" stroke-width="4"/>
+      <line x1="18" y1="0" x2="18" y2="15" class="barcode-line-light" stroke-width="2"/>
+      <line x1="24" y1="0" x2="24" y2="15" class="barcode-line-light" stroke-width="1"/>
+      <line x1="30" y1="0" x2="30" y2="15" class="barcode-line-light" stroke-width="3"/>
+      <text x="150" y="12" class="detail-label-light">#001-DEV</text>
+    </g>
+  </g>
+
+  <!-- CARD 2: SHOBITH (Cyan) -->
+  <g transform="translate(295, 15)">
+    <rect width="260" height="250" class="crew-card-light card-cyan-light"/>
+    <rect x="0" y="0" width="260" height="5" fill="url(#cyanGlowLight)" rx="2" class="shimmer-bar-light"/>
+
+    <!-- Header -->
+    <text x="20" y="38" class="detail-label-light">ORGANIZATION</text>
+    <text x="20" y="55" class="detail-val-light" style="fill:#0369a1;">thedevstory</text>
+    <rect x="165" y="24" width="75" height="22" rx="6" fill="#e0f2fe" stroke="#bae6fd"/>
+    <text x="173" y="39" class="badge-pass-light pass-cyan-light">CREW PASS</text>
+
+    <!-- Name & Role -->
+    <circle cx="30" cy="100" r="12" fill="#e0f2fe"/>
+    <circle cx="30" cy="100" r="5" fill="#0369a1"/>
+    <text x="52" y="107" class="crew-title-light">Shobith</text>
+    <text x="52" y="126" class="crew-role-light">Developer</text>
+
+    <!-- Details Grid -->
+    <line x1="20" y1="145" x2="240" y2="145" stroke="#e2e8f0" stroke-width="1.5"/>
+    <text x="20" y="170" class="detail-label-light">ROLE</text>
+    <text x="20" y="188" class="detail-val-light">Developer</text>
+
+    <text x="140" y="170" class="detail-label-light">ACCESS LEVEL</text>
+    <text x="140" y="188" class="detail-val-light">Core Team</text>
+
+    <!-- Bottom Barcode Line Decor -->
+    <g transform="translate(20, 215)">
+      <line x1="0" y1="0" x2="0" y2="15" class="barcode-line-light" stroke-width="2"/>
+      <line x1="5" y1="0" x2="5" y2="15" class="barcode-line-light" stroke-width="3"/>
+      <line x1="12" y1="0" x2="12" y2="15" class="barcode-line-light" stroke-width="1"/>
+      <line x1="18" y1="0" x2="18" y2="15" class="barcode-line-light" stroke-width="4"/>
+      <line x1="25" y1="0" x2="25" y2="15" class="barcode-line-light" stroke-width="2"/>
+      <line x1="30" y1="0" x2="30" y2="15" class="barcode-line-light" stroke-width="1"/>
+      <text x="150" y="12" class="detail-label-light">#002-DEV</text>
+    </g>
+  </g>
+
+  <!-- CARD 3: ADARSH (Pink) -->
+  <g transform="translate(580, 15)">
+    <rect width="260" height="250" class="crew-card-light card-pink-light"/>
+    <rect x="0" y="0" width="260" height="5" fill="url(#pinkGlowLight)" rx="2" class="shimmer-bar-light"/>
+
+    <!-- Header -->
+    <text x="20" y="38" class="detail-label-light">ORGANIZATION</text>
+    <text x="20" y="55" class="detail-val-light" style="fill:#be185d;">thedevstory</text>
+    <rect x="165" y="24" width="75" height="22" rx="6" fill="#fce7f3" stroke="#fbcfe8"/>
+    <text x="173" y="39" class="badge-pass-light pass-pink-light">CREW PASS</text>
+
+    <!-- Name & Role -->
+    <circle cx="30" cy="100" r="12" fill="#fce7f3"/>
+    <circle cx="30" cy="100" r="5" fill="#be185d"/>
+    <text x="52" y="107" class="crew-title-light">Adarsh</text>
+    <text x="52" y="126" class="crew-role-light">Developer</text>
+
+    <!-- Details Grid -->
+    <line x1="20" y1="145" x2="240" y2="145" stroke="#e2e8f0" stroke-width="1.5"/>
+    <text x="20" y="170" class="detail-label-light">ROLE</text>
+    <text x="20" y="188" class="detail-val-light">Developer</text>
+
+    <text x="140" y="170" class="detail-label-light">ACCESS LEVEL</text>
+    <text x="140" y="188" class="detail-val-light">Core Team</text>
+
+    <!-- Bottom Barcode Line Decor -->
+    <g transform="translate(20, 215)">
+      <line x1="0" y1="0" x2="0" y2="15" class="barcode-line-light" stroke-width="4"/>
+      <line x1="7" y1="0" x2="7" y2="15" class="barcode-line-light" stroke-width="1"/>
+      <line x1="12" y1="0" x2="12" y2="15" class="barcode-line-light" stroke-width="2"/>
+      <line x1="18" y1="0" x2="18" y2="15" class="barcode-line-light" stroke-width="3"/>
+      <line x1="24" y1="0" x2="24" y2="15" class="barcode-line-light" stroke-width="1"/>
+      <line x1="29" y1="0" x2="29" y2="15" class="barcode-line-light" stroke-width="4"/>
+      <text x="150" y="12" class="detail-label-light">#003-DEV</text>
+    </g>
+  </g>
+</svg>
