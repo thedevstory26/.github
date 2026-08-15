@@ -1,0 +1,101 @@
+<svg viewBox="0 0 420 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Instagram Gradient -->
+    <linearGradient id="instaGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f09433"/>
+      <stop offset="25%" stop-color="#e6683c"/>
+      <stop offset="50%" stop-color="#dc2743"/>
+      <stop offset="75%" stop-color="#cc2366"/>
+      <stop offset="100%" stop-color="#bc1888"/>
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="socialGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600&amp;display=swap');
+
+    .soc-btn-dark {
+      fill: #1e293b;
+      stroke: rgba(255, 255, 255, 0.15);
+      stroke-width: 1.5;
+      rx: 25px;
+      transition: all 0.3s ease;
+    }
+
+    .soc-icon-dark {
+      fill: #ffffff;
+    }
+
+    .soc-tooltip-dark {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 11px;
+      font-weight: 600;
+      fill: #ffffff;
+    }
+
+    .soc-group {
+      cursor: pointer;
+    }
+
+    .soc-group:hover .soc-btn-dark {
+      filter: url(#socialGlow);
+    }
+  </style>
+
+  <!-- 1. LINKEDIN -->
+  <a href="https://linkedin.com/" target="_blank">
+    <g transform="translate(30, 15)" class="soc-group">
+      <!-- Tooltip -->
+      <rect x="2" y="0" width="46" height="18" rx="4" fill="#0274b3"/>
+      <text x="25" y="13" text-anchor="middle" class="soc-tooltip-dark">LinkedIn</text>
+      <!-- Circle Button -->
+      <circle cx="25" cy="42" r="22" class="soc-btn-dark"/>
+      <!-- Icon (White) -->
+      <path class="soc-icon-dark" d="M19 32h-3v-9.5c0-2.3-.8-3.9-2.9-3.9-1.6 0-2.5 1.1-2.9 2.1-.1.4-.1.9-.1 1.4V32h-3s.1-12 0-13.3h3v1.9c.4-.6 1.2-1.6 3.1-1.6 2.3 0 4 1.5 4 4.7V32zM9 16.5C8 16.5 7.3 15.8 7.3 14.8c0-1 .7-1.8 1.7-1.8 1 0 1.7.7 1.7 1.8 0 1-.7 1.7-1.7 1.7zM7.5 32h3V18.7h-3V32z"/>
+    </g>
+  </a>
+
+  <!-- 2. GITHUB -->
+  <a href="https://www.github.com/" target="_blank">
+    <g transform="translate(130, 15)" class="soc-group">
+      <!-- Tooltip -->
+      <rect x="5" y="0" width="40" height="18" rx="4" fill="#334155"/>
+      <text x="25" y="13" text-anchor="middle" class="soc-tooltip-dark">GitHub</text>
+      <!-- Circle Button -->
+      <circle cx="25" cy="42" r="22" class="soc-btn-dark"/>
+      <!-- Icon (White) -->
+      <path class="soc-icon-dark" d="M25 30c-4.4 0-8 3.6-8 8 0 3.5 2.3 6.5 5.5 7.6.4.1.5-.2.5-.4v-1.5c-2.2.5-2.7-.5-2.9-1-.1-.2-.5-1-.8-1.1-.3-.2-.7-.5 0-.5.6 0 1.1.6 1.2.8.7 1.2 1.9.9 2.3.7.1-.5.3-.9.5-1.1-1.8-.2-3.6-.9-3.6-4 0-.9.3-1.6.8-2.2-.1-.2-.4-1 .1-2.1 0 0 .7-.2 2.2.8.6-.2 1.3-.3 2-.3s1.4.1 2 .3c1.5-1 2.2-.8 2.2-.8.4 1.1.1 1.9.1 2.1.5.6.8 1.3.8 2.2 0 3.1-1.9 3.8-3.7 4 .3.3.5.7.5 1.5v2.2c0 .2.1.5.5.4 3.2-1.1 5.5-4.1 5.5-7.6 0-4.4-3.6-8-8-8z"/>
+    </g>
+  </a>
+
+  <!-- 3. INSTAGRAM -->
+  <a href="https://www.instagram.com/" target="_blank">
+    <g transform="translate(230, 15)" class="soc-group">
+      <!-- Tooltip -->
+      <rect x="-3" y="0" width="56" height="18" rx="4" fill="url(#instaGrad)"/>
+      <text x="25" y="13" text-anchor="middle" class="soc-tooltip-dark">Instagram</text>
+      <!-- Circle Button -->
+      <circle cx="25" cy="42" r="22" class="soc-btn-dark"/>
+      <!-- Icon (White) -->
+      <path class="soc-icon-dark" d="M25 34c-2.2 0-4-1.8-4-4s1.8-4 4-4 4 1.8 4 4-1.8 4-4 4zm0-6.5c-1.4 0-2.5 1.1-2.5 2.5s1.1 2.5 2.5 2.5 2.5-1.1 2.5-2.5-1.1-2.5-2.5-2.5zm5.2-3.6c0 .5-.4.9-.9.9s-.9-.4-.9-.9.4-.9.9-.9.9.4.9.9zm2.8 1.6c-.1-1.3-.4-2.4-1.3-3.3s-2-1.2-3.3-1.3c-1.3-.1-5.3-.1-6.6 0-1.3.1-2.4.4-3.3 1.3s-1.2 2-1.3 3.3c-.1 1.3-.1 5.3 0 6.6.1 1.3.4 2.4 1.3 3.3s2 1.2 3.3 1.3c1.3.1 5.3.1 6.6 0 1.3-.1 2.4-.4 3.3-1.3s1.2-2 1.3-3.3c.1-1.3.1-5.3 0-6.6zm-1.8 8.1c-.3.7-.8 1.3-1.5 2s-1.3 1.2-2 1.5c-1 .4-3.4.3-4.7.3s-3.7.1-4.7-.3c-.7-.3-1.3-.8-2-1.5s-1.2-1.3-1.5-2c-.4-1-.3-3.4-.3-4.7s-.1-3.7.3-4.7c.3-.7.8-1.3 1.5-2s1.3-1.2 2-1.5c1-.4 3.4-.3 4.7-.3s3.7-.1 4.7.3c.7.3 1.3.8 2 1.5s1.2 1.3 1.5 2c.4 1 .3 3.4.3 4.7s.1 3.7-.3 4.7z"/>
+    </g>
+  </a>
+
+  <!-- 4. YOUTUBE -->
+  <a href="https://youtube.com/" target="_blank">
+    <g transform="translate(330, 15)" class="soc-group">
+      <!-- Tooltip -->
+      <rect x="0" y="0" width="50" height="18" rx="4" fill="#ff0000"/>
+      <text x="25" y="13" text-anchor="middle" class="soc-tooltip-dark">YouTube</text>
+      <!-- Circle Button -->
+      <circle cx="25" cy="42" r="22" class="soc-btn-dark"/>
+      <!-- Icon (White) -->
+      <path class="soc-icon-dark" d="M30.7 37.6c-.3.3-.8.5-1.4.5h-8.6c-.6 0-1.1-.2-1.4-.5-.3-.3-.4-.8-.4-1.4v-8.4c0-.6.1-1.1.4-1.4.3-.3.8-.5 1.4-.5h8.6c.6 0 1.1.2 1.4.5.3.3.4.8.4 1.4v8.4c0 .6-.1 1.1-.4 1.4zm-7.2-7.8v4.4l3.8-2.2-3.8-2.2z"/>
+    </g>
+  </a>
+</svg>

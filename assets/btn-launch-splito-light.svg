@@ -1,0 +1,41 @@
+<svg viewBox="0 0 280 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="btnGradLight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#6b21a8"/>
+    </linearGradient>
+  </defs>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@700&amp;display=swap');
+    .btn-body-light {
+      fill: url(#btnGradLight);
+      stroke: #0f172a;
+      stroke-width: 1.5;
+      rx: 12px;
+    }
+    .btn-text-light {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 700;
+      font-size: 15px;
+      fill: #ffffff;
+      letter-spacing: 0.5px;
+    }
+    .btn-icon-light {
+      stroke: #ffffff;
+      stroke-width: 2.5;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+  </style>
+
+  <!-- Button Background -->
+  <rect x="4" y="4" width="272" height="48" class="btn-body-light"/>
+
+  <!-- Button Content -->
+  <g transform="translate(45, 14)">
+    <text x="0" y="21" class="btn-text-light">Launch Splito App</text>
+    <g transform="translate(155, 6)">
+      <path class="btn-icon-light" d="M5 12h14M12 5l7 7-7 7" transform="scale(0.8)"/>
+    </g>
+  </g>
+</svg>

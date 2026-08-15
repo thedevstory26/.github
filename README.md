@@ -16,7 +16,9 @@
   <img src="assets/divider.svg" alt="Divider Beam" width="100%">
 </p>
 
-## 🌌 Company Core Principles
+<div align="center">
+  <h2>🌌 Company Core Principles</h2>
+</div>
 
 At **thedevstory**, all tools we craft follow our studio-wide standards:
 - ⚡ **Zero-Friction Tools**: Fast, intuitive web tools built without mandatory accounts or intrusive paywalls.
@@ -25,12 +27,16 @@ At **thedevstory**, all tools we craft follow our studio-wide standards:
 
 ---
 
-## 🚀 Products & Applications
+<div align="center">
+  <h2>🚀 Products & Applications</h2>
+</div>
 
 > *Note: Each product built by **thedevstory** maintains its own dedicated feature set tailored to its specific domain.*
 
-### 💳 **Splito** — Split Bills Effortlessly *(Product #1 — Active)*
-> *Split bills with friends — no sign-ups, no servers, no fuss.*
+<div align="center">
+  <h3>💳 Splito — Split Bills Effortlessly <i>(Product #1 — Active)</i></h3>
+  <p><i>Split bills with friends — no sign-ups, no servers, no fuss.</i></p>
+</div>
 
 A free, lightweight web application designed for group expense splitting right inside your browser.
 
@@ -41,16 +47,32 @@ A free, lightweight web application designed for group expense splitting right i
 - 🛡️ **Privacy-First (No Data Sent)**: Your expense data never leaves your device. Ever.
 - ⚙️ **No Backend Server**: All expense logic is calculated in your browser's local memory.
 
-👉 **[Launch Splito Live App (splitoh.netlify.app)](https://splitoh.netlify.app)**
+<br/>
+
+<div align="center">
+  <a href="https://splitoh.netlify.app" target="_blank" rel="noopener noreferrer">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/btn-launch-splito-dark.svg#gh-dark-mode-only">
+      <source media="(prefers-color-scheme: light)" srcset="assets/btn-launch-splito-light.svg#gh-light-mode-only">
+      <img alt="Launch Splito App" src="assets/btn-launch-splito-dark.svg" width="260">
+    </picture>
+  </a>
+</div>
+
+<br/>
 
 ---
 
-### 🛰️ Upcoming Products *(In Concept / Development)*
-Our studio is actively planning and developing future privacy-first tools. Each upcoming application will feature its own tailored architecture and capabilities.
+<div align="center">
+  <h3>🛰️ Upcoming Products <i>(In Concept / Development)</i></h3>
+</div>
+<p align="center">Our studio is actively planning and developing future privacy-first tools. Each upcoming application will feature its own tailored architecture and capabilities.</p>
 
 ---
 
-## 👨‍💻 The Crew
+<div align="center">
+  <h2>👨‍💻 The Crew</h2>
+</div>
 
 <p align="center">
   <picture>
@@ -62,7 +84,9 @@ Our studio is actively planning and developing future privacy-first tools. Each 
 
 ---
 
-## 📬 Get In Touch
+<div align="center">
+  <h2>📬 Get In Touch</h2>
+</div>
 
 Got feedback, project inquiries, or feature ideas? Drop us a line!
 
@@ -71,19 +95,24 @@ Got feedback, project inquiries, or feature ideas? Drop us a line!
 
 ---
 
-## 🌐 Connect With Us
+<div align="center">
+  <h2>🌐 Connect With Us</h2>
+</div>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/social-cards-dark.svg#gh-dark-mode-only">
+    <source media="(prefers-color-scheme: light)" srcset="assets/social-cards-light.svg#gh-light-mode-only">
+    <img alt="The Dev Story Social Connections" src="assets/social-cards-dark.svg" width="420">
+  </picture>
+</p>
+
+<br/>
+
+<p align="center">
+  <img src="assets/divider.svg" alt="Footer Divider" width="100%">
+</p>
 
 <div align="center">
-
-<a href="https://www.github.com/"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
-<a href="https://linkedin.com/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-<a href="https://www.instagram.com/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"></a>
-<a href="https://youtube.com/"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube"></a>
-
-<br/><br/>
-
-<img src="assets/divider.svg" alt="Footer Divider" width="100%">
-
-<sub>&copy; 2026 **The Dev Story**. Built with passion for clean software.</sub>
-
+  <sub>&copy; 2026 <b>The Dev Story</b>. Built with passion for clean software.</sub>
 </div>
