@@ -16,9 +16,13 @@
   <img src="assets/divider.svg" alt="Divider Beam" width="100%">
 </p>
 
-<div align="center">
-  <h2>🌌 Company Core Principles</h2>
-</div>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/title-principles.svg#gh-dark-mode-only">
+    <source media="(prefers-color-scheme: light)" srcset="assets/title-principles-light.svg#gh-light-mode-only">
+    <img alt="Company Core Principles" src="assets/title-principles.svg" width="450">
+  </picture>
+</p>
 
 At **thedevstory**, all tools we craft follow our studio-wide standards:
 - ⚡ **Zero-Friction Tools**: Fast, intuitive web tools built without mandatory accounts or intrusive paywalls.
@@ -27,9 +31,13 @@ At **thedevstory**, all tools we craft follow our studio-wide standards:
 
 ---
 
-<div align="center">
-  <h2>🚀 Products & Applications</h2>
-</div>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/title-products.svg#gh-dark-mode-only">
+    <source media="(prefers-color-scheme: light)" srcset="assets/title-products-light.svg#gh-light-mode-only">
+    <img alt="Products & Applications" src="assets/title-products.svg" width="450">
+  </picture>
+</p>
 
 > *Note: Each product built by **thedevstory** maintains its own dedicated feature set tailored to its specific domain.*
 
@@ -70,9 +78,13 @@ A free, lightweight web application designed for group expense splitting right i
 
 ---
 
-<div align="center">
-  <h2>👨‍💻 The Crew</h2>
-</div>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/title-crew.svg#gh-dark-mode-only">
+    <source media="(prefers-color-scheme: light)" srcset="assets/title-crew-light.svg#gh-light-mode-only">
+    <img alt="The Crew" src="assets/title-crew.svg" width="450">
+  </picture>
+</p>
 
 <p align="center">
   <picture>
@@ -84,9 +96,13 @@ A free, lightweight web application designed for group expense splitting right i
 
 ---
 
-<div align="center">
-  <h2>📬 Get In Touch</h2>
-</div>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/title-contact.svg#gh-dark-mode-only">
+    <source media="(prefers-color-scheme: light)" srcset="assets/title-contact-light.svg#gh-light-mode-only">
+    <img alt="Get In Touch" src="assets/title-contact.svg" width="450">
+  </picture>
+</p>
 
 Got feedback, project inquiries, or feature ideas? Drop us a line!
 
@@ -95,15 +111,19 @@ Got feedback, project inquiries, or feature ideas? Drop us a line!
 
 ---
 
-<div align="center">
-  <h2>🌐 Connect With Us</h2>
-</div>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/title-connect.svg#gh-dark-mode-only">
+    <source media="(prefers-color-scheme: light)" srcset="assets/title-connect-light.svg#gh-light-mode-only">
+    <img alt="Connect With Us" src="assets/title-connect.svg" width="450">
+  </picture>
+</p>
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/social-cards-dark.svg#gh-dark-mode-only">
-    <source media="(prefers-color-scheme: light)" srcset="assets/social-cards-light.svg#gh-light-mode-only">
-    <img alt="The Dev Story Social Connections" src="assets/social-cards-dark.svg" width="420">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/social-buttons-dark.svg#gh-dark-mode-only">
+    <source media="(prefers-color-scheme: light)" srcset="assets/social-buttons-light.svg#gh-light-mode-only">
+    <img alt="The Dev Story Social Connections" src="assets/social-buttons-dark.svg" width="600">
   </picture>
 </p>
 
